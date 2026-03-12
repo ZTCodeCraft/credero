@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Общи условия – Кредеро</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KY62MMGE98"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KY62MMGE98');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #0c1d38;
+      --navy-mid: #14294f;
+      --teal: #19aed0;
+      --white: #ffffff;
+      --off-white: #f4f8fb;
+      --text-dark: #0d1f3c;
+      --text-mid: #4a5f78;
+      --border: #dce6ef;
+      --transition: .2s ease;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text-dark);
+      background: var(--white);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* NAV */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--navy);
+      padding: 0 24px;
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+    .nav-logo img { height: 38px; display: block; }
+    .nav-back {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,.6);
+      text-decoration: none;
+      font-size: .88rem;
+      font-weight: 500;
+      transition: color var(--transition);
+    }
+    .nav-back:hover { color: var(--white); }
+    .nav-back svg { width: 16px; height: 16px; }
+
+    /* HERO STRIP */
+    .page-hero {
+      background: var(--navy);
+      padding: 64px 24px 56px;
+      text-align: center;
+    }
+    .page-hero .label {
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 16px;
+    }
+    .page-hero h1 {
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.2;
+    }
+    .page-hero .meta {
+      margin-top: 14px;
+      font-size: .88rem;
+      color: rgba(255,255,255,.4);
+    }
+
+    /* CONTENT */
+    .content-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 72px 24px 96px;
+    }
+    .policy-section {
+      margin-bottom: 52px;
+    }
+    .policy-section h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--teal);
+      display: inline-block;
+    }
+    .policy-section p {
+      color: var(--text-mid);
+      margin-bottom: 12px;
+      font-size: .95rem;
+    }
+    .policy-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 8px 0 12px;
+    }
+    .policy-section ul li {
+      position: relative;
+      padding-left: 18px;
+      color: var(--text-mid);
+      font-size: .95rem;
+      margin-bottom: 8px;
+    }
+    .policy-section ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--teal);
+    }
+
+    /* FOOTER */
+    .footer {
+      background: var(--navy);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .footer p {
+      font-size: .82rem;
+      color: rgba(255,255,255,.3);
+    }
+    .footer a {
+      color: rgba(255,255,255,.4);
+      text-decoration: none;
+      transition: color var(--transition);
+    }
+    .footer a:hover { color: rgba(255,255,255,.7); }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" style="overflow:hidden;height:68px;display:flex;align-items:center;">
+        <img src="images/logos/logo_nav.png" alt="Кредеро" style="height:58px;width:auto;display:block;" />
+      </a>
+      <a href="index.html" class="nav-back">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+        Към началото
+      </a>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <span class="label">Правна информация</span>
+    <h1>Общи условия за използване<br>на уебсайта</h1>
+  </section>
+
+  <main class="content-wrap">
+
+    <div class="policy-section">
+      <h2>1. Общи положения</h2>
+      <p>Настоящите Общи условия уреждат правилата за използване на уебсайта <strong>credero.bg</strong> (наричан по-долу „Сайтът"). С достъпа и използването на Сайта всеки потребител се съгласява с настоящите Общи условия. Ако не сте съгласни с тях, моля не използвайте Сайта.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>2. Информация за собственика</h2>
+      <p>Сайтът <strong>credero.bg</strong> е собственост на „КРЕДЕРО" ЕООД (наричано по-долу „Дружеството").</p>
+      <p>Информацията, публикувана на Сайта, има информативен характер и не представлява правен, финансов или данъчен съвет, освен ако изрично не е договорено друго.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>3. Предмет и обхват</h2>
+      <p>Сайтът предоставя информация за дейността, услугите и експертизата на Дружеството. Използването на Сайта не създава договорни отношения между потребителя и Дружеството, освен ако не е сключен изричен писмен договор.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>4. Права и задължения на потребителите</h2>
+      <p>Потребителите се задължават:</p>
+      <ul>
+        <li>да използват Сайта добросъвестно и законосъобразно;</li>
+        <li>да не извършват действия, които могат да нарушат функционирането на Сайта;</li>
+        <li>да не използват съдържанието за търговски цели без изрично съгласие.</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>5. Авторски права</h2>
+      <p>Цялото съдържание на Сайта (текстове, лога, графики, дизайн) е собственост на Credero или се използва на законно основание и е защитено от закона за авторското право. Копирането, разпространението или използването без предварително писмено съгласие е забранено.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>6. Ограничаване на отговорността</h2>
+      <p>Дружеството не носи отговорност за:</p>
+      <ul>
+        <li>вреди, причинени от използването или невъзможността за използване на Сайта;</li>
+        <li>неточности или пропуски в публикуваната информация;</li>
+        <li>съдържание на външни сайтове, към които Сайтът съдържа препратки.</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>7. Промени в Общите условия</h2>
+      <p>Credero си запазва правото да променя настоящите Общи условия по всяко време. Актуалната версия е публикувана на Сайта и влиза в сила от момента на публикуването ѝ.</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>8. Приложимо право</h2>
+      <p>За всички неуредени въпроси се прилага действащото законодателство на Република България.</p>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Credero. Всички права запазени. &nbsp;|&nbsp; <a href="index.html">Начало</a></p>
+  </footer>
+
+</body>
+</html>
