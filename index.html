@@ -639,7 +639,7 @@
     }
     .founder-image {
       width: 100%;
-      aspect-ratio: 3/4;
+      aspect-ratio: 2/3;
       object-fit: cover;
       object-position: center top;
       border-radius: 20px;
@@ -731,6 +731,36 @@
       font-weight: 800;
       color: var(--teal);
       line-height: 1;
+    }
+    .founder-stats-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+    .founder-stats-row .founder-years,
+    .founder-stats-row .founder-stat {
+      margin-top: 0;
+    }
+    .founder-stat {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 12px;
+      padding: 14px 20px;
+    }
+    .founder-stat-num {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--teal);
+      line-height: 1;
+    }
+    .founder-stat-text {
+      font-size: .85rem;
+      color: rgba(255,255,255,.55);
+      line-height: 1.35;
     }
     .founder-years-text {
       font-size: .85rem;
@@ -1431,9 +1461,15 @@
               <p>„Вярвам, че доверието, точността и личната ангажираност са основата на всяко успешно партньорство!"</p>
             </div>
 
-            <div class="founder-years">
-              <div class="founder-years-num">20+</div>
-              <div class="founder-years-text">години<br/>професионален опит</div>
+            <div class="founder-stats-row">
+              <div class="founder-years">
+                <div class="founder-years-num">20+</div>
+                <div class="founder-years-text">години<br/>професионален опит</div>
+              </div>
+              <div class="founder-stat">
+                <div class="founder-stat-num">50+</div>
+                <div class="founder-stat-text">Клиенти</div>
+              </div>
             </div>
           </div>
         </div>
